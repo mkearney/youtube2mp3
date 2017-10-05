@@ -12,8 +12,30 @@ add_to_git("clean up make file")
 1
 
 ## download everclear song
-youtube2mp3("https://www.youtube.com/watch?v=MW6E_TNgCsY")
+youtube2mp3(
+  "https://www.youtube.com/watch?v=MW6E_TNgCsY",
+  "~/Music/everclear-santamonica.mp3"
+)
+## foo fighters - monkey wrench
+youtube2mp3(
+  "https://www.youtube.com/watch?v=I7rCNiiNPxA",
+  "~/Music/foofighters-monkeywrench.mp3"
+)
+## haley reinhart - creep
+youtube2mp3(
+  "https://www.youtube.com/watch?v=m3lF2qEA2cw",
+  "~/Music/reinhart-creep.mp3"
+)
+## haley reinhart - time of my life
+youtube2mp3(
+  "https://www.youtube.com/watch?v=WsxdsTdcgJ4",
+  "~/Music/reinhart-timeofmylife.mp3"
+)
 
+
+##----------------------------------------------------------------------------##
+##                                    tuber                                   ##
+##----------------------------------------------------------------------------##
 
 ## search using youtube api
 if (!"tube" %in% installed.packages()) {
