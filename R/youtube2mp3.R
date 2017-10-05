@@ -29,7 +29,6 @@ youtube2mp3 <- function(video_id, file = NULL) {
     "http://www.yt-mp3.com/watch?v=",
     video_id
   )
-  tfse::menuline
   browseURL(mp3_url)
   sh <- menuline(
     "Has the video \"successfully been converted\" yet?",

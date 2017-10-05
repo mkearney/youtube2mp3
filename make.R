@@ -1,9 +1,21 @@
-## R make file
-devtools::document()
-devtools::install()
+# youtube2mp3
+## Package make file
 
-# install.packages("devtools")
+## load the first scriptorium emporium
+library(tfse)
 
+## update/document package
+make_package()
+
+## update git repo
+add_to_git("clean up make file")
+1
+
+## download everclear song
+youtube2mp3("https://www.youtube.com/watch?v=MW6E_TNgCsY")
+
+
+## search using youtube api
 if (!"tube" %in% installed.packages()) {
   devtools::install_github(
     "soodoku/tuber",
@@ -11,7 +23,7 @@ if (!"tube" %in% installed.packages()) {
   )  
 }
 
-## oautherize yahoo api sesssion
+## oauthorize yahoo api sesssion
 tuber::yt_oauth(
   Sys.getenv("YOUTUBE_APP_ID"),
   Sys.getenv("YOUTUBE_APP_SECRET"),

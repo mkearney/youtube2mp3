@@ -1,7 +1,7 @@
 Package: youtube2mp3
 Type: Package
 Title: Convert Youtube Videos to MP3
-Version: 0.1.0
+Version: 0.1.03
 Author: Michael W Kearney
 Maintainer: Michael W Kearney <mike.wayne.kearney@gmail.com>
 Description: Used at user discretion. Use of this package violates copyright

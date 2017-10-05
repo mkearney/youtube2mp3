@@ -1,0 +1,18 @@
+
+citHeader("To cite youtube2mp3 use:")
+
+citEntry(
+    entry        = "Manual",
+    title        = "youtube2mp3: Convert Youtube Videos to MP3",
+    author       = as.person("Michael W. Kearney"),
+    year         = 2017,
+    note         = "R package version 0.1.03",
+    url          = "",
+    key          = "youtube2mp3-package",
+    textVersion  = paste(
+        "Kearney, M. W. (2017). youtube2mp3: Convert Youtube Videos to MP3.",
+        "R package version 0.1.03 Retrieved from",
+        ""
+    )
+)
+
