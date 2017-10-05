@@ -8,7 +8,7 @@ library(tfse)
 make_package()
 
 ## update git repo
-add_to_git("clean up make file")
+add_to_git("add download scripts")
 1
 
 ## download everclear song
