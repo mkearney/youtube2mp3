@@ -2,3 +2,4 @@
 ^\.Rproj\.user$
 ^make$
 ^make.R$
+^\.httr-oauth$

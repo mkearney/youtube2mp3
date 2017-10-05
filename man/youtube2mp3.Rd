@@ -4,10 +4,12 @@
 \alias{youtube2mp3}
 \title{youtube2mp3}
 \usage{
-youtube2mp3(youtube_url, file = NULL)
+youtube2mp3(video_id, file = NULL)
 }
 \arguments{
-\item{youtube_url}{Link to youtube video. URL must include "youtube.com/watch?v=".}
+\item{video_id}{Youtube's assigned unique identifier; also accepted is a
+link to a youtube video URL, though if a URL is provided, it must
+include "youtube.com/watch?v=".}
 
 \item{file}{Name of output mp3 file. A ".mp3" file extension will be added if not
 already included. This defaults to the video code (value after v= in the URL) and
